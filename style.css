@@ -1,0 +1,2238 @@
+@font-face {
+    font-family: 'PromptThinItalic';
+    src: url('./fonts/Prompt-ThinItalic.eot');
+    src: url('./fonts/Prompt-ThinItalic.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-ThinItalic.woff2') format('woff2'),
+         url('./fonts/Prompt-ThinItalic.woff') format('woff'),
+         url('./fonts/Prompt-ThinItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptExtraLightItalic';
+    src: url('./fonts/Prompt-ExtraLightItalic.eot');
+    src: url('./fonts/Prompt-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-ExtraLightItalic.woff2') format('woff2'),
+         url('./fonts/Prompt-ExtraLightItalic.woff') format('woff'),
+         url('./fonts/Prompt-ExtraLightItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptLightItalic';
+    src: url('./fonts/Prompt-LightItalic.eot');
+    src: url('./fonts/Prompt-LightItalic.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-LightItalic.woff2') format('woff2'),
+         url('./fonts/Prompt-LightItalic.woff') format('woff'),
+         url('./fonts/Prompt-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptItalic';
+    src: url('./fonts/Prompt-Italic.eot');
+    src: url('./fonts/Prompt-Italic.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-Italic.woff2') format('woff2'),
+         url('./fonts/Prompt-Italic.woff') format('woff'),
+         url('./fonts/Prompt-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptMediumItalic';
+    src: url('./fonts/Prompt-MediumItalic.eot');
+    src: url('./fonts/Prompt-MediumItalic.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-MediumItalic.woff2') format('woff2'),
+         url('./fonts/Prompt-MediumItalic.woff') format('woff'),
+         url('./fonts/Prompt-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptSemiBoldItalic';
+    src: url('./fonts/Prompt-SemiBoldItalic.eot');
+    src: url('./fonts/Prompt-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-SemiBoldItalic.woff2') format('woff2'),
+         url('./fonts/Prompt-SemiBoldItalic.woff') format('woff'),
+         url('./fonts/Prompt-SemiBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptBoldItalic';
+    src: url('./fonts/Prompt-BoldItalic.eot');
+    src: url('./fonts/Prompt-BoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-BoldItalic.woff2') format('woff2'),
+         url('./fonts/Prompt-BoldItalic.woff') format('woff'),
+         url('./fonts/Prompt-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptExtraBoldItalic';
+    src: url('./fonts/Prompt-ExtraBoldItalic.eot');
+    src: url('./fonts/Prompt-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-ExtraBoldItalic.woff2') format('woff2'),
+         url('./fonts/Prompt-ExtraBoldItalic.woff') format('woff'),
+         url('./fonts/Prompt-ExtraBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptBlackItalic';
+    src: url('./fonts/Prompt-BlackItalic.eot');
+    src: url('./fonts/Prompt-BlackItalic.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-BlackItalic.woff2') format('woff2'),
+         url('./fonts/Prompt-BlackItalic.woff') format('woff'),
+         url('./fonts/Prompt-BlackItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptThin';
+    src: url('./fonts/Prompt-Thin.eot');
+    src: url('./fonts/Prompt-Thin.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-Thin.woff2') format('woff2'),
+         url('./fonts/Prompt-Thin.woff') format('woff'),
+         url('./fonts/Prompt-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptExtraLight';
+    src: url('./fonts/Prompt-ExtraLight.eot');
+    src: url('./fonts/Prompt-ExtraLight.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-ExtraLight.woff2') format('woff2'),
+         url('./fonts/Prompt-ExtraLight.woff') format('woff'),
+         url('./fonts/Prompt-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptLight';
+    src: url('./fonts/Prompt-Light.eot');
+    src: url('./fonts/Prompt-Light.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-Light.woff2') format('woff2'),
+         url('./fonts/Prompt-Light.woff') format('woff'),
+         url('./fonts/Prompt-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptRegular';
+    src: url('./fonts/Prompt-Regular.eot');
+    src: url('./fonts/Prompt-Regular.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-Regular.woff2') format('woff2'),
+         url('./fonts/Prompt-Regular.woff') format('woff'),
+         url('./fonts/Prompt-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptMedium';
+    src: url('./fonts/Prompt-Medium.eot');
+    src: url('./fonts/Prompt-Medium.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-Medium.woff2') format('woff2'),
+         url('./fonts/Prompt-Medium.woff') format('woff'),
+         url('./fonts/Prompt-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptSemiBold';
+    src: url('./fonts/Prompt-SemiBold.eot');
+    src: url('./fonts/Prompt-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-SemiBold.woff2') format('woff2'),
+         url('./fonts/Prompt-SemiBold.woff') format('woff'),
+         url('./fonts/Prompt-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptBold';
+    src: url('./fonts/Prompt-Bold.eot');
+    src: url('./fonts/Prompt-Bold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-Bold.woff2') format('woff2'),
+         url('./fonts/Prompt-Bold.woff') format('woff'),
+         url('./fonts/Prompt-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptExtraBold';
+    src: url('./fonts/Prompt-ExtraBold.eot');
+    src: url('./fonts/Prompt-ExtraBold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-ExtraBold.woff2') format('woff2'),
+         url('./fonts/Prompt-ExtraBold.woff') format('woff'),
+         url('./fonts/Prompt-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptBlack';
+    src: url('./fonts/Prompt-Black.eot');
+    src: url('./fonts/Prompt-Black.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-Black.woff2') format('woff2'),
+         url('./fonts/Prompt-Black.woff') format('woff'),
+         url('./fonts/Prompt-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptThin';
+    src: url('./fonts/Prompt-Thin.eot');
+    src: url('./fonts/Prompt-Thin.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-Thin.woff2') format('woff2'),
+         url('./fonts/Prompt-Thin.woff') format('woff'),
+         url('./fonts/Prompt-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptExtraLight';
+    src: url('./fonts/Prompt-ExtraLight.eot');
+    src: url('./fonts/Prompt-ExtraLight.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-ExtraLight.woff2') format('woff2'),
+         url('./fonts/Prompt-ExtraLight.woff') format('woff'),
+         url('./fonts/Prompt-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptLight';
+    src: url('./fonts/Prompt-Light.eot');
+    src: url('./fonts/Prompt-Light.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-Light.woff2') format('woff2'),
+         url('./fonts/Prompt-Light.woff') format('woff'),
+         url('./fonts/Prompt-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptRegular';
+    src: url('./fonts/Prompt-Regular.eot');
+    src: url('./fonts/Prompt-Regular.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-Regular.woff2') format('woff2'),
+         url('./fonts/Prompt-Regular.woff') format('woff'),
+         url('./fonts/Prompt-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptMedium';
+    src: url('./fonts/Prompt-Medium.eot');
+    src: url('./fonts/Prompt-Medium.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-Medium.woff2') format('woff2'),
+         url('./fonts/Prompt-Medium.woff') format('woff'),
+         url('./fonts/Prompt-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptSemiBold';
+    src: url('./fonts/Prompt-SemiBold.eot');
+    src: url('./fonts/Prompt-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-SemiBold.woff2') format('woff2'),
+         url('./fonts/Prompt-SemiBold.woff') format('woff'),
+         url('./fonts/Prompt-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptBold';
+    src: url('./fonts/Prompt-Bold.eot');
+    src: url('./fonts/Prompt-Bold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-Bold.woff2') format('woff2'),
+         url('./fonts/Prompt-Bold.woff') format('woff'),
+         url('./fonts/Prompt-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptExtraBold';
+    src: url('./fonts/Prompt-ExtraBold.eot');
+    src: url('./fonts/Prompt-ExtraBold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-ExtraBold.woff2') format('woff2'),
+         url('./fonts/Prompt-ExtraBold.woff') format('woff'),
+         url('./fonts/Prompt-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptBlack';
+    src: url('./fonts/Prompt-Black.eot');
+    src: url('./fonts/Prompt-Black.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-Black.woff2') format('woff2'),
+         url('./fonts/Prompt-Black.woff') format('woff'),
+         url('./fonts/Prompt-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptThin';
+    src: url('./fonts/Prompt-Thin.eot');
+    src: url('./fonts/Prompt-Thin.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-Thin.woff2') format('woff2'),
+         url('./fonts/Prompt-Thin.woff') format('woff'),
+         url('./fonts/Prompt-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptExtraLight';
+    src: url('./fonts/Prompt-ExtraLight.eot');
+    src: url('./fonts/Prompt-ExtraLight.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-ExtraLight.woff2') format('woff2'),
+         url('./fonts/Prompt-ExtraLight.woff') format('woff'),
+         url('./fonts/Prompt-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptLight';
+    src: url('./fonts/Prompt-Light.eot');
+    src: url('./fonts/Prompt-Light.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-Light.woff2') format('woff2'),
+         url('./fonts/Prompt-Light.woff') format('woff'),
+         url('./fonts/Prompt-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptRegular';
+    src: url('./fonts/Prompt-Regular.eot');
+    src: url('./fonts/Prompt-Regular.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-Regular.woff2') format('woff2'),
+         url('./fonts/Prompt-Regular.woff') format('woff'),
+         url('./fonts/Prompt-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptMedium';
+    src: url('./fonts/Prompt-Medium.eot');
+    src: url('./fonts/Prompt-Medium.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-Medium.woff2') format('woff2'),
+         url('./fonts/Prompt-Medium.woff') format('woff'),
+         url('./fonts/Prompt-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptSemiBold';
+    src: url('./fonts/Prompt-SemiBold.eot');
+    src: url('./fonts/Prompt-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-SemiBold.woff2') format('woff2'),
+         url('./fonts/Prompt-SemiBold.woff') format('woff'),
+         url('./fonts/Prompt-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptBold';
+    src: url('./fonts/Prompt-Bold.eot');
+    src: url('./fonts/Prompt-Bold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-Bold.woff2') format('woff2'),
+         url('./fonts/Prompt-Bold.woff') format('woff'),
+         url('./fonts/Prompt-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptExtraBold';
+    src: url('./fonts/Prompt-ExtraBold.eot');
+    src: url('./fonts/Prompt-ExtraBold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-ExtraBold.woff2') format('woff2'),
+         url('./fonts/Prompt-ExtraBold.woff') format('woff'),
+         url('./fonts/Prompt-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PromptBlack';
+    src: url('./fonts/Prompt-Black.eot');
+    src: url('./fonts/Prompt-Black.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Prompt-Black.woff2') format('woff2'),
+         url('./fonts/Prompt-Black.woff') format('woff'),
+         url('./fonts/Prompt-Black.ttf') format('truetype');
+}
+
+#block-1 {
+  color: #0c6ddb;
+  background-color: #00de00;
+  height: 720px;
+}
+
+#block-1-header {
+  font-family: 'PromptLight';
+  font-size: 25pt;
+  line-height: 200%;
+  text-align: center;
+  padding-top: 250px;
+}
+
+#name {
+  font-family: 'PromptMedium';
+  font-size: 90pt;
+}
+
+#block-2 {
+  height: 720px;
+  color: #00de00;
+  background-color: #FFF;
+  font-family: 'PromptRegular';
+  font-size: 42pt;
+  line-height: 140%;
+  text-align: left;
+  padding-top: 90px;
+}
+
+#block-3 {
+  height: 720px;
+  background: url("img/block03_1.png") no-repeat center;
+  color: #0c6ddb;
+  background-color: #00de00;
+}
+
+#block-3-text {
+  font-family: 'PromptItalic';
+  font-size: 18pt;
+  line-height: 140%;
+  text-align: right;
+  padding-top: 340px;
+}
+
+#block-4 {
+  height: 720px;
+  background: url("img/block04_1.png") no-repeat center;
+  color: #FFF;
+  background-color: #0c6ddb;
+}
+
+#block-4-text {
+  font-family: 'PromptThin';
+  font-size: 18pt;
+  line-height: 120%;
+  text-align: right;
+  padding-top: 380px;
+}
+
+#block-5 {
+  color: #00de00;
+  background-color: #FFF;
+  padding-bottom: 120px;
+}
+
+#block-5-Title {
+  font-family: 'PromptRegular';
+  font-size: 16pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+
+#block-5-text_sub {
+  font-family: 'PromptLight';
+  font-size: 12pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 20px;
+}
+
+
+#block-5-text0 {
+  font-family: 'PromptThin';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 80px;
+}
+
+#block-5-text1 {
+  font-family: 'PromptExtraLight';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 50px;
+}
+
+#block-5-text2 {
+  font-family: 'PromptLight';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 55px;
+}
+
+#block-5-text3 {
+  font-family: 'PromptRegular';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 60px;
+}
+
+#block-5-text4 {
+  font-family: 'PromptMedium';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 65px;
+}
+
+#block-5-text5 {
+  font-family: 'PromptSemiBold';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 70px;
+}
+
+#block-5-text6 {
+  font-family: 'PromptBold';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 80px;
+}
+
+#block-5-text7 {
+  font-family: 'PromptExtraBold';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 80px;
+}
+
+#block-5-text8 {
+  font-family: 'PromptBlack';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 80px;
+}
+
+#block-5-i {
+  color: #00de00;
+  background-color: #FFF;
+  padding-bottom: 120px;
+}
+
+#block-5-i-Title {
+  font-family: 'Prompt';
+  font-size: 16pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+
+#block-5-i-text_sub {
+  font-family: 'PromptLight';
+  font-size: 12pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 20px;
+}
+
+
+#block-5-i-text0 {
+  font-family: 'PromptThinItalic';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 80px;
+}
+
+#block-5-i-text1 {
+  font-family: 'PromptExtraLightItalic';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 50px;
+}
+
+#block-5-i-text2 {
+  font-family: 'PromptLightItalic';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 55px;
+}
+
+#block-5-i-text3 {
+  font-family: 'PromptItalic';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 60px;
+}
+
+#block-5-i-text4 {
+  font-family: 'PromptMediumItalic';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 65px;
+}
+
+#block-5-i-text5 {
+  font-family: 'PromptSemiBoldItalic';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 70px;
+}
+
+#block-5-i-text6 {
+  font-family: 'PromptBoldItalic';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 80px;
+}
+
+#block-5-i-text7 {
+  font-family: 'PromptExtraBoldItalic';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 80px;
+}
+
+#block-5-i-text8 {
+  font-family: 'PromptBlackItalic';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 80px;
+}
+
+#block-6 {
+  height: 720px;
+  background-color: #0c6ddb;
+}
+
+#block-7-1 {
+  background: url("img/block07_1.jpg") no-repeat center;
+  background-size: cover;
+  height: 720px;
+  color: #FFF;
+  background-color: #0c6ddb;
+}
+
+#block-7-1-text {
+  font-family: 'PromptItalic';
+  font-size: 16pt;
+  line-height: 150%;
+  text-align: left;
+  padding-top: 250px;
+}
+
+#block-7-2 {
+  background: url("img/block07_2.jpg") no-repeat center;
+  background-size: cover;
+  height: 720px;
+  color: #FFF;
+  background-color: #0c6ddb;
+}
+
+#block-7-2-text {
+  font-family: 'PromptBold';
+  font-size: 18pt;
+  line-height: 150%;
+  text-align: left;
+  padding-top: 470px;
+}
+
+#block-7-3 {
+  background: url("img/block07_3.jpg") no-repeat center;
+  background-size: cover;
+  height: 720px;
+  color: #FFF;
+  background-color: #0c6ddb;
+}
+
+#block-7-3-text1 {
+  font-family: 'PromptThinItalic';
+  font-size: 13pt;
+  line-height: 150%;
+  text-align: left;
+  padding-top: 500px;
+}
+
+#block-7-3-text2 {
+  font-family: 'PromptExtraBoldItalic';
+  font-size: 13pt;
+  line-height: 150%;
+  text-align: left;
+  padding-top: 500px;
+}
+
+#block-Title {
+  color: #999999;
+  font-family: 'PromptLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-Title-1 {
+  color: #999999;
+  font-family: 'PromptLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-Title-2 {
+  color: #999999;
+  font-family: 'PromptLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+ul.nav > li > a {
+  color: #999999;
+  font-family: 'PromptLight';
+  font-size: 12pt;
+  text-align: center;
+  letter-spacing: 0px;
+}
+
+ul.nav > li.active > a {
+  color: #FFF;
+  background-color: #00de00;
+  font-family: 'PromptSemiBold';
+  font-size: 12pt;
+  text-align: center;
+  letter-spacing: 0px;
+}
+
+#block-9 {
+  color: #00de00;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-9-Title {
+  font-family: 'PromptLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-9-Char {
+  font-family: 'PromptThin';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-9-Num {
+  font-family: 'PromptThin';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-9-Vowel {
+  font-family: 'PromptThin';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-9-Sp-Char {
+  font-family: 'PromptThin';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-9-Symbol {
+  font-family: 'PromptThin';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-9-Ac-Char {
+  font-family: 'PromptThin';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-9-Text1 {
+  font-family: 'PromptThin';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-9-Text2 {
+  font-family: 'PromptThin';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-9-Text3 {
+  font-family: 'PromptThin';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-9-i {
+  color: #00de00;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-9-i-Title {
+  font-family: 'PromptLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-9-i-Char {
+  font-family: 'PromptThinItalic';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-9-i-Num {
+  font-family: 'PromptThinItalic';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-9-i-Vowel {
+  font-family: 'PromptThinItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-9-i-Sp-Char {
+  font-family: 'PromptThinItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-9-i-Symbol {
+  font-family: 'PromptThinItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-9-i-Ac-Char {
+  font-family: 'PromptThinItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-9-i-Text1 {
+  font-family: 'PromptThinItalic';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-9-i-Text2 {
+  font-family: 'PromptThinItalic';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-9-i-Text3 {
+  font-family: 'PromptThinItalic';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-10 {
+  color: #00de00;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-10-Title {
+  font-family: 'PromptLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-10-Char {
+  font-family: 'PromptExtraLight';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-10-Num {
+  font-family: 'PromptExtraLight';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-10-Vowel {
+  font-family: 'PromptExtraLight';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-10-Sp-Char {
+  font-family: 'PromptExtraLight';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-10-Symbol {
+  font-family: 'PromptExtraLight';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-10-Ac-Char {
+  font-family: 'PromptExtraLight';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-10-Text1 {
+  font-family: 'PromptExtraLight';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-10-Text2 {
+  font-family: 'PromptExtraLight';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-10-Text3 {
+  font-family: 'PromptExtraLight';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-10-i {
+  color: #00de00;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-10-i-Title {
+  font-family: 'PromptLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-10-i-Char {
+  font-family: 'PromptExtraLightItalic';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-10-i-Num {
+  font-family: 'PromptExtraLightItalic';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-10-i-Vowel {
+  font-family: 'PromptExtraLightItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-10-i-Sp-Char {
+  font-family: 'PromptExtraLightItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-10-i-Symbol {
+  font-family: 'PromptExtraLightItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-10-i-Ac-Char {
+  font-family: 'PromptExtraLightItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-10-i-Text1 {
+  font-family: 'PromptExtraLightItalic';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-10-i-Text2 {
+  font-family: 'PromptExtraLightItalic';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-10-i-Text3 {
+  font-family: 'PromptExtraLightItalic';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-11 {
+  color: #00de00;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-11-Title {
+  font-family: 'PromptLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-11-Char {
+  font-family: 'PromptLight';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-11-Num {
+  font-family: 'PromptLight';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-11-Vowel {
+  font-family: 'PromptLight';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-11-Sp-Char {
+  font-family: 'PromptLight';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-11-Symbol {
+  font-family: 'PromptLight';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-11-Ac-Char {
+  font-family: 'PromptLight';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-11-Text1 {
+  font-family: 'PromptLight';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-11-Text2 {
+  font-family: 'PromptLight';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-11-Text3 {
+  font-family: 'PromptLight';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-11-i {
+  color: #00de00;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-11-i-Title {
+  font-family: 'PromptLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-11-i-Char {
+  font-family: 'PromptLightItalic';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-11-i-Num {
+  font-family: 'PromptLightItalic';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-11-i-Vowel {
+  font-family: 'PromptLightItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-11-i-Sp-Char {
+  font-family: 'PromptLightItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-11-i-Symbol {
+  font-family: 'PromptLightItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-11-i-Ac-Char {
+  font-family: 'PromptLightItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-11-i-Text1 {
+  font-family: 'PromptLightItalic';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-11-i-Text2 {
+  font-family: 'PromptLightItalic';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-11-i-Text3 {
+  font-family: 'PromptLightItalic';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-12 {
+  color: #00de00;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-12-Title {
+  font-family: 'PromptLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-12-Char {
+  font-family: 'PromptRegular';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-12-Num {
+  font-family: 'PromptRegular';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-12-Vowel {
+  font-family: 'PromptRegular';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-12-Sp-Char {
+  font-family: 'PromptRegular';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-12-Symbol {
+  font-family: 'PromptRegular';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-12-Ac-Char {
+  font-family: 'PromptRegular';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-12-Text1 {
+  font-family: 'PromptRegular';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-12-Text2 {
+  font-family: 'PromptRegular';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-12-Text3 {
+  font-family: 'PromptRegular';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-12-i {
+  color: #00de00;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-12-i-Title {
+  font-family: 'PromptLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-12-i-Char {
+  font-family: 'PromptItalic';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-12-i-Num {
+  font-family: 'PromptItalic';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-12-i-Vowel {
+  font-family: 'PromptItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-12-i-Sp-Char {
+  font-family: 'PromptItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-12-i-Symbol {
+  font-family: 'PromptItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-12-i-Ac-Char {
+  font-family: 'PromptItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-12-i-Text1 {
+  font-family: 'PromptItalic';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-12-i-Text2 {
+  font-family: 'PromptItalic';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-12-i-Text3 {
+  font-family: 'PromptItalic';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-13 {
+  color: #00de00;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-13-Title {
+  font-family: 'PromptLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-13-Char {
+  font-family: 'PromptMedium';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-13-Num {
+  font-family: 'PromptMedium';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-13-Vowel {
+  font-family: 'PromptMedium';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-13-Sp-Char {
+  font-family: 'PromptMedium';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-13-Symbol {
+  font-family: 'PromptMedium';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-13-Ac-Char {
+  font-family: 'PromptMedium';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-13-Text1 {
+  font-family: 'PromptMedium';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-13-Text2 {
+  font-family: 'PromptMedium';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-13-Text3 {
+  font-family: 'PromptMedium';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-13-i {
+  color: #00de00;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-13-i-Title {
+  font-family: 'PromptLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-13-i-Char {
+  font-family: 'PromptMediumItalic';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-13-i-Num {
+  font-family: 'PromptMediumItalic';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-13-i-Vowel {
+  font-family: 'PromptMediumItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-13-i-Sp-Char {
+  font-family: 'PromptMediumItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-13-i-Symbol {
+  font-family: 'PromptMediumItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-13-i-Ac-Char {
+  font-family: 'PromptMediumItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-13-i-Text1 {
+  font-family: 'PromptMediumItalic';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-13-i-Text2 {
+  font-family: 'PromptMediumItalic';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-13-i-Text3 {
+  font-family: 'PromptMediumItalic';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-14 {
+  color: #00de00;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-14-Title {
+  font-family: 'PromptLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-14-Char {
+  font-family: 'PromptSemiBold';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-14-Num {
+  font-family: 'PromptSemiBold';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-14-Vowel {
+  font-family: 'PromptSemiBold';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-14-Sp-Char {
+  font-family: 'PromptSemiBold';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-14-Symbol {
+  font-family: 'PromptSemiBold';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-14-Ac-Char {
+  font-family: 'PromptSemiBold';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-14-Text1 {
+  font-family: 'PromptSemiBold';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-14-Text2 {
+  font-family: 'PromptSemiBold';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-14-Text3 {
+  font-family: 'PromptSemiBold';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-14-i {
+  color: #00de00;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-14-i-Title {
+  font-family: 'PromptLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-14-i-Char {
+  font-family: 'PromptSemiBoldItalic';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-14-i-Num {
+  font-family: 'PromptSemiBoldItalic';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-14-i-Vowel {
+  font-family: 'PromptSemiBoldItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-14-i-Sp-Char {
+  font-family: 'PromptSemiBoldItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-14-i-Symbol {
+  font-family: 'PromptSemiBoldItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-14-i-Ac-Char {
+  font-family: 'PromptSemiBoldItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-14-i-Text1 {
+  font-family: 'PromptSemiBoldItalic';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-14-i-Text2 {
+  font-family: 'PromptSemiBoldItalic';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-14-i-Text3 {
+  font-family: 'PromptSemiBoldItalic';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+
+#block-15 {
+  color: #00de00;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-15-Title {
+  font-family: 'PromptLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-15-Char {
+  font-family: 'PromptBold';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-15-Num {
+  font-family: 'PromptBold';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-15-Vowel {
+  font-family: 'PromptBold';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-15-Sp-Char {
+  font-family: 'PromptBold';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-15-Symbol {
+  font-family: 'PromptBold';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-15-Ac-Char {
+  font-family: 'PromptBold';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-15-Text1 {
+  font-family: 'PromptBold';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-15-Text2 {
+  font-family: 'PromptBold';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-15-Text3 {
+  font-family: 'PromptBold';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-15-i {
+  color: #00de00;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-15-i-Title {
+  font-family: 'PromptLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-15-i-Char {
+  font-family: 'PromptBoldItalic';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-15-i-Num {
+  font-family: 'PromptBoldItalic';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-15-i-Vowel {
+  font-family: 'PromptBoldItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-15-i-Sp-Char {
+  font-family: 'PromptBoldItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-15-i-Symbol {
+  font-family: 'PromptBoldItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-15-i-Ac-Char {
+  font-family: 'PromptBoldItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-15-i-Text1 {
+  font-family: 'PromptBoldItalic';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-15-i-Text2 {
+  font-family: 'PromptBoldItalic';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-15-i-Text3 {
+  font-family: 'PromptBoldItalic';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-16 {
+  color: #00de00;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-16-Title {
+  font-family: 'PromptLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-16-Char {
+  font-family: 'PromptExtraBold';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-16-Num {
+  font-family: 'PromptExtraBold';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-16-Vowel {
+  font-family: 'PromptExtraBold';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-16-Sp-Char {
+  font-family: 'PromptExtraBold';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-16-Symbol {
+  font-family: 'PromptExtraBold';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-16-Ac-Char {
+  font-family: 'PromptExtraBold';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-16-Text1 {
+  font-family: 'PromptExtraBold';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-16-Text2 {
+  font-family: 'PromptExtraBold';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-16-Text3 {
+  font-family: 'PromptExtraBold';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-16-i {
+  color: #00de00;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-16-i-Title {
+  font-family: 'PromptLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-16-i-Char {
+  font-family: 'PromptExtraBoldItalic';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-16-i-Num {
+  font-family: 'PromptExtraBoldItalic';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-16-i-Vowel {
+  font-family: 'PromptExtraBoldItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-16-i-Sp-Char {
+  font-family: 'PromptExtraBoldItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-16-i-Symbol {
+  font-family: 'PromptExtraBoldItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-16-i-Ac-Char {
+  font-family: 'PromptExtraBoldItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-16-i-Text1 {
+  font-family: 'PromptExtraBoldItalic';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-16-i-Text2 {
+  font-family: 'PromptExtraBoldItalic';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-16-i-Text3 {
+  font-family: 'PromptExtraBoldItalic';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-17 {
+  color: #00de00;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-17-Title {
+  font-family: 'PromptLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-17-Char {
+  font-family: 'PromptBlack';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-17-Num {
+  font-family: 'PromptBlack';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-17-Vowel {
+  font-family: 'PromptBlack';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-17-Sp-Char {
+  font-family: 'PromptBlack';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-17-Symbol {
+  font-family: 'PromptBlack';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-17-Ac-Char {
+  font-family: 'PromptBlack';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-17-Text1 {
+  font-family: 'PromptBlack';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-17-Text2 {
+  font-family: 'PromptBlack';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-17-Text3 {
+  font-family: 'PromptBlack';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-17-i {
+  color: #00de00;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-17-i-Title {
+  font-family: 'PromptLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-17-i-Char {
+  font-family: 'PromptBlackItalic';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-17-i-Num {
+  font-family: 'PromptBlackItalic';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-17-i-Vowel {
+  font-family: 'PromptBlackItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-17-i-Sp-Char {
+  font-family: 'PromptBlackItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-17-i-Symbol {
+  font-family: 'PromptBlackItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-17-i-Ac-Char {
+  font-family: 'PromptBlackItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-17-i-Text1 {
+  font-family: 'PromptBlackItalic';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-17-i-Text2 {
+  font-family: 'PromptBlackItalic';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-17-i-Text3 {
+  font-family: 'PromptBlackItalic';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#Line1 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #00de00;
+}
+
+#Line2 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #00de00;
+}
