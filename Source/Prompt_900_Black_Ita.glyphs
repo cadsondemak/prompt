@@ -111,6 +111,18 @@ value = "-422";
 }
 );
 descender = -250;
+guideLines = (
+{
+alignment = right;
+angle = 78;
+position = "{19, 271}";
+},
+{
+alignment = right;
+angle = 78;
+position = "{253, 448}";
+}
+);
 id = "EF7A456C-05AE-460A-9046-2BAC18FBC939";
 weight = Bold;
 weightValue = 900;
@@ -27816,9 +27828,19 @@ unicode = 0E1A;
 },
 {
 glyphname = "poPla-thai";
-lastChange = "2015-10-29 02:55:25 +0000";
+lastChange = "2015-11-18 08:31:06 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{595, 0}";
+},
+{
+name = top;
+position = "{402, 377}";
+}
+);
 layerId = "EF7A456C-05AE-460A-9046-2BAC18FBC939";
 name = Bold;
 paths = (
@@ -28004,9 +28026,19 @@ unicode = 0E1C;
 },
 {
 glyphname = "foFa-thai";
-lastChange = "2015-10-29 02:55:25 +0000";
+lastChange = "2015-11-18 08:31:22 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{615, 0}";
+},
+{
+name = top;
+position = "{422, 377}";
+}
+);
 layerId = "EF7A456C-05AE-460A-9046-2BAC18FBC939";
 name = Bold;
 paths = (
@@ -28045,9 +28077,19 @@ unicode = 0E1D;
 },
 {
 glyphname = "foFan-thai";
-lastChange = "2015-10-29 02:55:24 +0000";
+lastChange = "2015-11-18 08:31:33 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{622, 0}";
+},
+{
+name = top;
+position = "{530, 377}";
+}
+);
 layerId = "EF7A456C-05AE-460A-9046-2BAC18FBC939";
 name = Bold;
 paths = (
@@ -28078,9 +28120,19 @@ unicode = 0E1F;
 },
 {
 glyphname = "phoPhan-thai";
-lastChange = "2015-10-29 02:55:25 +0000";
+lastChange = "2015-11-18 08:31:42 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{622, 0}";
+},
+{
+name = top;
+position = "{750, 377}";
+}
+);
 layerId = "EF7A456C-05AE-460A-9046-2BAC18FBC939";
 name = Bold;
 paths = (
@@ -28191,9 +28243,19 @@ unicode = 0E2C;
 },
 {
 glyphname = "loChula-thai.short";
-lastChange = "2015-10-29 02:55:26 +0000";
+lastChange = "2015-11-18 08:31:58 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{614, 0}";
+},
+{
+name = top;
+position = "{377, 377}";
+}
+);
 layerId = "EF7A456C-05AE-460A-9046-2BAC18FBC939";
 name = Bold;
 paths = (
