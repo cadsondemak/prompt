@@ -1,4 +1,5 @@
 {
+.appVersion = "1352";
 copyright = "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)";
 customParameters = (
 {
@@ -23,10 +24,11 @@ value = (
 );
 }
 );
-date = "2015-10-28 11:55:01 +0000";
+date = "2022-12-26 07:02:40 +0000";
 designer = "Katatrad Team";
 designerURL = www.katatrad.com;
-familyName = "Prompt";
+disablesAutomaticAlignment = 1;
+familyName = Prompt;
 featurePrefixes = (
 {
 automatic = 1;
@@ -41,7 +43,7 @@ code = "feature ccmp;\012feature locl;\012feature subs;\012feature sups;\012feat
 name = aalt;
 },
 {
-code = "lookup latn_decomb {\012\011script latn;\012@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb];\012\011sub [i j]' @CombiningTopAccents by [idotless jdotless];\012\011sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012} latn_decomb;\012\012lookup thai_decomb {\012\011script thai;\012\011sub saraAm-thai by nikhahit-thai saraAa-thai;\012} thai_decomb;\012\012lookup thai_comb {\012    script thai;\012sub maiEk-thai nikhahit-thai by nikhahit_maiEk-thai;\012sub maiTho-thai nikhahit-thai by nikhahit_maiTho-thai;\012sub maiTri-thai nikhahit-thai by nikhahit_maiTri-thai;\012sub maiChattawa-thai nikhahit-thai by nikhahit_maiChattawa-thai;\012\012\012} thai_comb;\012\012lookup thai_comb1 {\012\011script thai;\012sub [yoYing-thai thoThan-thai doChada-thai toPatak-thai ru-thai lu-thai]' [saraU-thai saraUu-thai phinthu-thai] by [yoYing-thai.less thoThan-thai.less doChada-thai.short toPatak-thai.short ru-thai.short lu-thai.short];\012sub [doChada-thai.short toPatak-thai.short ru-thai.short lu-thai.short] [phinthu-thai saraU-thai saraUu-thai]' by [phinthu-thai.small saraU-thai.small saraUu-thai.small];\012sub [nikhahit-thai nikhahit-thai.narrow maiHanaKat-thai maitaikhu-thai maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai yamakkan-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small];\012sub loChula-thai' [nikhahit-thai maiChattawa-thai maiEk-thai maiHanaKat-thai thanthakhat-thai maiTho-thai maiTri-thai maitaikhu-thai yamakkan-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai] by loChula-thai.short;\012sub [poPla-thai foFa-thai foFan-thai] [maiHanaKat-thai thanthakhat-thai nikhahit-thai maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai maitaikhu-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai]' by [maiHanaKat-thai.narrow thanthakhat-thai.narrow nikhahit-thai.narrow maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow];\012sub [poPla-thai foFa-thai foFan-thai] [nikhahit_maiEk-thai nikhahit_maiTho-thai nikhahit_maiTri-thai nikhahit_maiChattawa-thai]' by [nikhahit_maiEk-thai.narrow nikhahit_maiTho-thai.narrow nikhahit_maiTri-thai.narrow nikhahit_maiChattawa-thai.narrow];\012sub [maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow thanthakhat-thai.narrow] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small];\012sub [poPla-thai foFa-thai foFan-thai] [saraU-thai saraUu-thai phinthu-thai] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow thanthakhat-thai.narrow];\012sub [maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow] [maiHanaKat-thai maitaikhu-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai]' by [maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow];\012\012} thai_comb1;";
+code = "lookup latn_decomb {\012	script latn;\012@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012} latn_decomb;\012\012lookup thai_decomb {\012	script thai;\012	sub saraAm-thai by nikhahit-thai saraAa-thai;\012} thai_decomb;\012\012lookup thai_comb {\012    script thai;\012sub maiEk-thai nikhahit-thai by nikhahit_maiEk-thai;\012sub maiTho-thai nikhahit-thai by nikhahit_maiTho-thai;\012sub maiTri-thai nikhahit-thai by nikhahit_maiTri-thai;\012sub maiChattawa-thai nikhahit-thai by nikhahit_maiChattawa-thai;\012\012\012} thai_comb;\012\012lookup thai_comb1 {\012	script thai;\012sub [yoYing-thai thoThan-thai doChada-thai toPatak-thai ru-thai lu-thai]' [saraU-thai saraUu-thai phinthu-thai] by [yoYing-thai.less thoThan-thai.less doChada-thai.short toPatak-thai.short ru-thai.short lu-thai.short];\012sub [doChada-thai.short toPatak-thai.short ru-thai.short lu-thai.short] [phinthu-thai saraU-thai saraUu-thai]' by [phinthu-thai.small saraU-thai.small saraUu-thai.small];\012sub [nikhahit-thai nikhahit-thai.narrow maiHanaKat-thai maitaikhu-thai maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai yamakkan-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small];\012sub loChula-thai' [nikhahit-thai maiChattawa-thai maiEk-thai maiHanaKat-thai thanthakhat-thai maiTho-thai maiTri-thai maitaikhu-thai yamakkan-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai] by loChula-thai.short;\012sub [poPla-thai foFa-thai foFan-thai] [maiHanaKat-thai thanthakhat-thai nikhahit-thai maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai maitaikhu-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai]' by [maiHanaKat-thai.narrow thanthakhat-thai.narrow nikhahit-thai.narrow maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow];\012sub [poPla-thai foFa-thai foFan-thai] [nikhahit_maiEk-thai nikhahit_maiTho-thai nikhahit_maiTri-thai nikhahit_maiChattawa-thai]' by [nikhahit_maiEk-thai.narrow nikhahit_maiTho-thai.narrow nikhahit_maiTri-thai.narrow nikhahit_maiChattawa-thai.narrow];\012sub [maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow thanthakhat-thai.narrow] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small];\012sub [poPla-thai foFa-thai foFan-thai] [saraU-thai saraUu-thai phinthu-thai] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow thanthakhat-thai.narrow];\012sub [maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow] [maiHanaKat-thai maitaikhu-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai]' by [maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow];\012\012} thai_comb1;";
 name = ccmp;
 },
 {
@@ -103,11 +105,11 @@ value = 200;
 },
 {
 name = winAscent;
-value = "1090";
+value = 1090;
 },
 {
 name = winDescent;
-value = "-422";
+value = -422;
 }
 );
 descender = -250;
@@ -132,7 +134,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -170,7 +171,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -217,7 +217,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -274,7 +273,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -340,7 +338,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -414,7 +411,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -480,7 +476,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -564,7 +559,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -646,7 +640,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -696,7 +689,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -746,7 +738,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -805,7 +796,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -872,7 +862,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -931,7 +920,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -1008,7 +996,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -1083,7 +1070,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -1155,7 +1141,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -1210,7 +1195,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -1257,7 +1241,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -1322,7 +1305,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -1369,7 +1351,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -1425,7 +1406,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -1491,7 +1471,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -1566,7 +1545,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -1629,7 +1607,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -1676,7 +1653,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -1732,7 +1708,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -1795,7 +1770,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -1843,7 +1817,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -1900,7 +1873,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -1960,7 +1932,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -2029,7 +2000,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -2089,7 +2059,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -2154,7 +2123,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -2198,7 +2166,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -2250,7 +2217,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -2306,7 +2272,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -2358,7 +2323,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -2419,7 +2383,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -2472,7 +2435,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -2506,7 +2468,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -2549,7 +2510,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -2602,7 +2562,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -2648,7 +2607,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -2694,7 +2652,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -2749,7 +2706,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -2812,7 +2768,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -2867,7 +2822,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -2940,7 +2894,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -3011,7 +2964,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -3079,7 +3031,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -3130,7 +3081,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -3181,7 +3131,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -3224,7 +3173,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -3285,7 +3233,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -3328,7 +3275,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -3381,7 +3327,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -3440,7 +3385,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -3470,7 +3414,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -3521,7 +3464,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -3591,7 +3533,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -3654,7 +3595,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -3717,7 +3657,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -3777,7 +3716,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -3845,7 +3783,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -3905,7 +3842,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -3937,7 +3873,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -3986,7 +3921,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -4037,7 +3971,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -4081,7 +4014,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -4130,7 +4062,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -4154,7 +4085,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -4200,7 +4130,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -4233,7 +4162,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -4276,7 +4204,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -4312,7 +4239,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -4348,7 +4274,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -4406,7 +4331,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -4447,7 +4371,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -4488,7 +4411,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -4521,7 +4443,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -4572,7 +4493,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -4605,7 +4525,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -4654,7 +4573,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -4703,7 +4621,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -4740,7 +4657,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -4789,7 +4705,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -4822,7 +4737,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -4864,7 +4778,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -4891,7 +4804,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -4927,7 +4839,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -4963,7 +4874,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -4999,7 +4909,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -5043,7 +4952,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -5087,7 +4995,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -5140,7 +5047,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -5176,7 +5082,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -5211,7 +5116,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -5244,7 +5148,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -5294,7 +5197,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -5324,7 +5226,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -5363,7 +5264,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -5405,7 +5305,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -5444,7 +5343,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -5491,7 +5389,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -5538,7 +5435,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -5581,7 +5477,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -5620,7 +5515,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -5675,7 +5569,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -5726,7 +5619,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -5786,7 +5678,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -5856,7 +5747,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -5919,7 +5809,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -5982,7 +5871,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -6054,7 +5942,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -6134,7 +6021,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -6206,7 +6092,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -6296,7 +6181,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -6391,7 +6275,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -6476,7 +6359,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -6544,7 +6426,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -6604,7 +6485,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -6682,7 +6562,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -6745,7 +6624,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -6817,7 +6695,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -6897,7 +6774,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -6969,7 +6845,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -7059,7 +6934,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -7147,7 +7021,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -7216,7 +7089,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -7276,7 +7148,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -7352,7 +7223,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -7437,7 +7307,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -7513,7 +7382,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -7564,7 +7432,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -7609,7 +7476,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -7656,7 +7522,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -7710,7 +7575,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -7759,7 +7623,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -7817,7 +7680,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -7878,7 +7740,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -7936,7 +7797,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -8002,7 +7862,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -8077,7 +7936,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -8135,7 +7993,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -8195,7 +8052,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -8264,7 +8120,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -8336,7 +8191,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -8417,7 +8271,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -8489,7 +8342,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -8558,7 +8410,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -8635,7 +8486,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -8712,7 +8562,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -8770,7 +8619,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -8823,7 +8671,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -8853,7 +8700,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -8891,7 +8737,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -8933,7 +8778,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -8985,7 +8829,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -9024,7 +8867,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -9071,7 +8913,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -9110,7 +8951,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -9150,7 +8990,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -9199,7 +9038,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -9258,7 +9096,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -9310,7 +9147,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -9362,7 +9198,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -9436,7 +9271,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -9519,7 +9353,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -9605,7 +9438,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -9688,7 +9520,6 @@ lastChange = "2015-11-30 01:26:54 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -9771,7 +9602,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -9828,7 +9658,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -9877,7 +9706,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -9944,7 +9772,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -9994,7 +9821,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -10053,7 +9879,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -10120,7 +9945,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -10179,7 +10003,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -10256,7 +10079,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -10331,7 +10153,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -10389,7 +10210,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -10438,7 +10258,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -10503,7 +10322,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -10577,7 +10395,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -10642,7 +10459,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -10669,7 +10485,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -10704,7 +10519,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -10748,7 +10562,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -10795,7 +10608,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -10864,7 +10676,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -10908,7 +10719,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -10940,7 +10750,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -10971,7 +10780,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -11011,7 +10819,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -11054,7 +10861,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -11119,7 +10925,6 @@ lastChange = "2015-11-30 01:26:54 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -11167,7 +10972,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -11215,7 +11019,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -11255,7 +11058,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -11313,7 +11115,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -11369,7 +11170,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -11401,7 +11201,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -11442,7 +11241,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -11486,7 +11284,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -11535,7 +11332,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -11584,7 +11380,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -11641,7 +11436,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -11707,7 +11501,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -11783,7 +11576,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -11868,7 +11660,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -11961,7 +11752,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -12046,7 +11836,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -12149,7 +11938,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -12250,7 +12038,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -12319,7 +12106,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -12388,7 +12174,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -12466,7 +12251,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -12552,7 +12336,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -12630,7 +12413,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -12726,7 +12508,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -12820,7 +12601,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -12911,7 +12691,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -12985,7 +12764,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -13051,7 +12829,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -13135,7 +12912,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -13192,7 +12968,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -13258,7 +13033,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -13333,7 +13107,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -13424,7 +13197,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -13524,7 +13296,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -13606,7 +13377,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -13705,7 +13475,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -13813,7 +13582,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -13869,7 +13637,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -13917,7 +13684,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -13974,7 +13740,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -14034,7 +13799,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -14103,7 +13867,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -14163,7 +13926,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -14228,7 +13990,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -14284,7 +14045,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -14359,7 +14119,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -14424,7 +14183,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -14488,7 +14246,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -14561,7 +14318,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -14626,7 +14382,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -14681,7 +14436,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -14745,7 +14499,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -14819,7 +14572,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -14886,7 +14638,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -14953,7 +14704,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -15029,7 +14779,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -15113,7 +14862,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -15189,7 +14937,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -15283,7 +15030,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -15375,7 +15121,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -15464,7 +15209,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -15536,7 +15280,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -15608,7 +15351,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -15672,7 +15414,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -15754,7 +15495,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -15818,7 +15558,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -15892,7 +15631,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -15972,7 +15710,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -16017,7 +15754,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -16085,7 +15821,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -16172,7 +15907,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -16252,7 +15986,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -16332,7 +16065,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -16409,7 +16141,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -16494,7 +16225,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -16571,7 +16301,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -16613,7 +16342,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -16663,7 +16391,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -16724,7 +16451,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -16778,7 +16504,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -16837,7 +16562,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -16880,7 +16604,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -16906,7 +16629,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -16941,7 +16663,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -16986,7 +16707,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -17024,7 +16744,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -17062,7 +16781,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -17122,7 +16840,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -17182,7 +16899,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -17217,7 +16933,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -17270,7 +16985,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -17351,7 +17065,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -17386,7 +17099,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -17454,7 +17166,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -17505,7 +17216,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -17558,7 +17268,6 @@ lastChange = "2015-11-30 01:26:54 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -17594,7 +17303,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -17642,7 +17350,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -17674,7 +17381,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -17715,7 +17421,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -17747,7 +17452,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -17771,7 +17475,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -17804,7 +17507,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -17837,7 +17539,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -17870,7 +17571,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -17911,7 +17611,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -17952,7 +17651,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -18002,7 +17700,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -18035,7 +17732,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -18067,7 +17763,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -18127,7 +17822,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -18204,7 +17898,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -18246,7 +17939,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -18297,7 +17989,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -18348,7 +18039,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -18402,7 +18092,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -18453,7 +18142,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -18512,7 +18200,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -18571,7 +18258,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -18625,7 +18311,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -18676,7 +18361,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -18743,7 +18427,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -18794,7 +18477,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -18854,7 +18536,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -18924,7 +18605,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -18987,7 +18667,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -19050,7 +18729,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -19122,7 +18800,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -19202,7 +18879,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -19274,7 +18950,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -19364,7 +19039,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -19459,7 +19133,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -19544,7 +19217,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -19612,7 +19284,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -19672,7 +19343,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -19750,7 +19420,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -19813,7 +19482,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -19885,7 +19553,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -19965,7 +19632,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -20037,7 +19703,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -20127,7 +19792,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -20215,7 +19879,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -20284,7 +19947,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -20344,7 +20006,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -20414,7 +20075,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -20493,7 +20153,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -20569,7 +20228,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -20653,7 +20311,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -20709,7 +20366,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -20765,7 +20421,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -20821,7 +20476,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -20855,7 +20509,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -20898,7 +20551,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -20944,7 +20596,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -20987,7 +20638,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -21038,7 +20688,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -21098,7 +20747,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -21141,7 +20789,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -21201,7 +20848,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -21270,7 +20916,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -21342,7 +20987,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -21423,7 +21067,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -21495,7 +21138,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -21564,7 +21206,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -21641,7 +21282,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -21718,7 +21358,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -21781,7 +21420,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -21834,7 +21472,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -21880,7 +21517,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -21934,7 +21570,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -21989,7 +21624,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -22056,7 +21690,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -22111,7 +21744,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -22191,7 +21823,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -22254,7 +21885,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -22309,7 +21939,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -22351,7 +21980,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -22402,7 +22030,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -22463,7 +22090,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -22517,7 +22143,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -22571,7 +22196,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -22647,7 +22271,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -22732,7 +22355,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -22820,7 +22442,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -22905,7 +22526,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -22990,7 +22610,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -23049,7 +22668,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -23100,7 +22718,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -23169,7 +22786,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -23221,7 +22837,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -23282,7 +22897,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -23351,7 +22965,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -23412,7 +23025,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -23491,7 +23103,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -23568,7 +23179,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -23628,7 +23238,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -23679,7 +23288,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -23746,7 +23354,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -23822,7 +23429,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -23885,11 +23491,10 @@ unicode = 0169;
 },
 {
 glyphname = v;
-lastChange = "2015-11-30 01:26:56 +0000";
+lastChange = "2022-12-26 07:02:20 +0000";
 layers = (
 {
-layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
+background = {
 paths = (
 {
 closed = 1;
@@ -23901,6 +23506,22 @@ nodes = (
 "214 480 LINE",
 "92 480 LINE",
 "188 0 LINE"
+);
+}
+);
+};
+layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
+paths = (
+{
+closed = 1;
+nodes = (
+"323 0 LINE",
+"625 480 LINE",
+"472 480 LINE",
+"271 148 LINE",
+"212 480 LINE",
+"71 480 LINE",
+"169 0 LINE"
 );
 }
 );
@@ -23916,7 +23537,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -23951,7 +23571,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -23995,7 +23614,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -24042,7 +23660,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -24111,7 +23728,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -24155,7 +23771,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -24187,7 +23802,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -24241,7 +23855,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -24304,7 +23917,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -24370,7 +23982,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -24458,7 +24069,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -24529,7 +24139,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -24600,7 +24209,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -24663,7 +24271,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -24744,7 +24351,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -24823,7 +24429,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -24855,7 +24460,6 @@ lastChange = "2015-11-30 01:26:54 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -24896,7 +24500,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -24940,7 +24543,6 @@ lastChange = "2015-11-30 01:26:54 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -24989,7 +24591,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -25038,7 +24639,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -25102,7 +24702,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -25151,7 +24750,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -25218,7 +24816,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -25267,7 +24864,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -25307,7 +24903,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -25341,7 +24936,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -25393,7 +24987,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -25435,7 +25028,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -25479,7 +25071,6 @@ lastChange = "2015-11-30 01:27:13 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -25519,7 +25110,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -25567,7 +25157,6 @@ lastChange = "2015-11-30 01:27:37 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -25615,7 +25204,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -25663,7 +25251,6 @@ lastChange = "2015-11-30 01:27:40 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -25710,7 +25297,6 @@ lastChange = "2015-11-30 01:27:43 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -25758,7 +25344,6 @@ lastChange = "2015-11-30 01:27:47 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -25805,7 +25390,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -25866,7 +25450,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -25926,7 +25509,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -25990,7 +25572,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -26053,7 +25634,6 @@ lastChange = "2015-11-30 01:28:12 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -26118,7 +25698,6 @@ lastChange = "2015-11-30 01:28:15 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -26183,7 +25762,6 @@ lastChange = "2015-11-30 01:28:23 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -26267,7 +25845,6 @@ lastChange = "2015-11-30 01:28:27 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -26328,7 +25905,6 @@ lastChange = "2015-11-30 01:28:30 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -26380,7 +25956,6 @@ lastChange = "2015-11-30 01:28:32 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -26441,7 +26016,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -26500,7 +26074,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -26568,7 +26141,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -26616,7 +26188,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -26677,7 +26248,6 @@ lastChange = "2015-11-30 01:28:41 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -26731,7 +26301,6 @@ lastChange = "2015-11-30 01:28:44 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -26779,7 +26348,6 @@ lastChange = "2015-11-30 01:28:47 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -26840,7 +26408,6 @@ lastChange = "2015-11-30 01:28:50 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -26880,7 +26447,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -26942,7 +26508,6 @@ lastChange = "2015-11-30 01:28:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -26982,7 +26547,6 @@ lastChange = "2015-11-30 01:28:58 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -27022,7 +26586,6 @@ lastChange = "2015-11-30 01:29:02 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -27086,7 +26649,6 @@ lastChange = "2015-11-30 01:29:04 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -27150,7 +26712,6 @@ lastChange = "2015-11-30 01:29:07 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -27227,7 +26788,6 @@ lastChange = "2015-11-30 01:29:11 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -27290,7 +26850,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -27350,7 +26909,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -27408,7 +26966,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -27451,7 +27008,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -27497,7 +27053,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -27540,7 +27095,6 @@ lastChange = "2015-11-30 01:29:18 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -27614,7 +27168,6 @@ lastChange = "2015-11-30 01:29:21 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -27662,7 +27215,6 @@ lastChange = "2015-11-30 01:29:26 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -27714,7 +27266,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -27776,7 +27327,6 @@ lastChange = "2015-11-30 01:29:31 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -27844,7 +27394,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -27892,7 +27441,6 @@ position = "{418, 377}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -27930,7 +27478,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -27976,7 +27523,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -28039,7 +27585,6 @@ lastChange = "2015-11-30 01:29:42 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -28090,7 +27635,6 @@ position = "{425, 377}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -28141,7 +27685,6 @@ position = "{571, 377}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -28184,7 +27727,6 @@ position = "{672, 377}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -28217,7 +27759,6 @@ lastChange = "2015-11-30 01:30:10 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -28255,7 +27796,6 @@ lastChange = "2015-11-30 01:30:14 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -28307,7 +27847,6 @@ position = "{391, 377}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -28348,7 +27887,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -28398,7 +27936,6 @@ lastChange = "2015-11-30 01:30:22 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -28454,7 +27991,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -28490,7 +28026,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -28560,7 +28095,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -28596,7 +28130,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -28645,7 +28178,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -28677,7 +28209,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -28726,7 +28257,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -28767,7 +28297,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -28817,7 +28346,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -28858,7 +28386,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -28925,7 +28452,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -28974,7 +28500,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -29001,7 +28526,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -29046,7 +28570,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -29107,7 +28630,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -29146,7 +28668,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -29197,7 +28718,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -29259,7 +28779,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -29286,7 +28805,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -29364,7 +28882,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -29426,7 +28943,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -29450,7 +28966,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -29514,7 +29029,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -29596,7 +29110,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -29695,7 +29208,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -29755,7 +29267,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -29849,7 +29360,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -29948,7 +29458,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -30081,7 +29590,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -30204,7 +29712,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -30303,7 +29810,6 @@ lastChange = "2015-11-30 01:30:41 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -30352,7 +29858,6 @@ lastChange = "2015-11-30 01:30:45 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -30379,7 +29884,6 @@ lastChange = "2015-11-30 01:30:50 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -30423,7 +29927,6 @@ lastChange = "2015-11-30 01:30:52 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -30484,7 +29987,6 @@ lastChange = "2015-11-30 01:30:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -30523,7 +30025,6 @@ lastChange = "2015-11-30 01:31:00 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -30574,7 +30075,6 @@ lastChange = "2015-11-30 01:31:02 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -30636,7 +30136,6 @@ lastChange = "2015-11-30 01:31:05 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -30663,7 +30162,6 @@ lastChange = "2015-11-30 01:31:11 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -30741,7 +30239,6 @@ lastChange = "2015-11-30 01:31:13 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -30803,7 +30300,6 @@ lastChange = "2015-11-30 01:31:16 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -30852,7 +30348,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -30879,7 +30374,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -30923,7 +30417,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -30984,7 +30477,6 @@ lastChange = "2015-11-30 01:31:20 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -31023,7 +30515,6 @@ lastChange = "2015-11-30 01:31:23 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -31074,7 +30565,6 @@ lastChange = "2015-11-30 01:31:28 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -31136,7 +30626,6 @@ lastChange = "2015-11-30 01:31:35 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -31163,7 +30652,6 @@ lastChange = "2015-11-30 01:31:39 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -31241,7 +30729,6 @@ lastChange = "2015-11-30 01:31:43 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -31303,7 +30790,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -31352,7 +30838,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -31404,7 +30889,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -31479,7 +30963,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -31542,7 +31025,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -31604,7 +31086,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -31695,7 +31176,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -31744,7 +31224,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -31816,7 +31295,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -31889,7 +31367,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -31954,7 +31431,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -31989,7 +31465,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -32013,7 +31488,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -32045,7 +31519,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -32077,7 +31550,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -32126,7 +31598,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -32150,7 +31621,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -32216,7 +31686,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -32257,7 +31726,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -32298,7 +31766,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -32355,7 +31822,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -32387,7 +31853,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -32452,7 +31917,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -32517,7 +31981,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -32550,7 +32013,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -32574,7 +32036,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -32615,7 +32076,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -32639,7 +32099,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -32663,7 +32122,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -32697,7 +32155,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -32731,7 +32188,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -32789,7 +32245,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -32847,7 +32302,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -32875,7 +32329,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -32903,7 +32356,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -32937,7 +32389,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -32971,7 +32422,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -33005,7 +32455,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -33039,7 +32488,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -33063,7 +32511,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -33087,7 +32534,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -33111,7 +32557,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -33135,7 +32580,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -33159,7 +32603,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -33183,7 +32626,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -33207,7 +32649,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -33246,7 +32687,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -33285,7 +32725,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -33312,7 +32751,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -33339,7 +32777,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -33372,7 +32809,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -33405,7 +32841,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -33438,7 +32873,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -33462,7 +32896,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -33486,7 +32919,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -33510,7 +32942,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -33578,7 +33009,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -33661,7 +33091,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -33746,7 +33175,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -33807,7 +33235,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -33857,7 +33284,6 @@ lastChange = "2015-10-28 14:45:02 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 width = 0;
 }
 );
@@ -33870,7 +33296,6 @@ lastChange = "2015-10-28 14:45:04 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 width = 350;
 }
 );
@@ -33883,7 +33308,6 @@ lastChange = "2015-10-28 14:45:03 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 width = 350;
 }
 );
@@ -33896,7 +33320,6 @@ lastChange = "2015-10-28 14:45:03 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 width = 260;
 }
 );
@@ -33909,7 +33332,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -33941,7 +33363,6 @@ lastChange = "2015-10-28 14:45:03 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 width = 500;
 }
 );
@@ -33953,7 +33374,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -34040,7 +33460,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -34099,7 +33518,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -34158,7 +33576,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -34246,7 +33663,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -34319,7 +33735,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -34400,7 +33815,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -34472,7 +33886,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -34538,7 +33951,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -34594,7 +34006,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -34662,7 +34073,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -34718,7 +34128,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -34767,7 +34176,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -34813,7 +34221,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -34917,7 +34324,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -34998,7 +34404,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -35055,7 +34460,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -35103,7 +34507,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -35151,7 +34554,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -35194,7 +34596,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -35246,7 +34647,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -35311,7 +34711,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -35351,7 +34750,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -35383,7 +34781,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -35441,7 +34838,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -35465,7 +34861,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -35498,7 +34893,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -35525,7 +34919,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -35561,7 +34954,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -35639,7 +35031,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -35687,7 +35078,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -35714,7 +35104,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -35750,7 +35139,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -35776,7 +35164,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -35800,7 +35187,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -35832,7 +35218,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -35872,7 +35257,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -35934,7 +35318,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -36026,7 +35409,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -36152,7 +35534,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -36184,7 +35565,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -36225,7 +35605,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -36253,7 +35632,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -36282,7 +35660,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -36314,7 +35691,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -36343,7 +35719,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -36372,7 +35747,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -36401,7 +35775,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -36430,7 +35803,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -36454,7 +35826,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -36489,7 +35860,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -36513,7 +35883,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -36536,7 +35905,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -36559,7 +35927,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -36582,7 +35949,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -36605,7 +35971,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -36636,7 +36001,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -36667,7 +36031,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -36698,7 +36061,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -36729,7 +36091,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -36762,7 +36123,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -36786,7 +36146,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -36819,7 +36178,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -36907,7 +36265,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -36991,7 +36348,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -37026,7 +36382,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -37106,7 +36461,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -37188,7 +36542,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -37267,7 +36620,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -37360,7 +36712,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -37406,7 +36757,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -37455,7 +36805,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -37511,7 +36860,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -37578,7 +36926,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -37605,7 +36952,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -37637,7 +36983,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -37677,7 +37022,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -37701,7 +37045,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -37734,7 +37077,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -37810,7 +37152,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -37859,7 +37200,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -37891,7 +37231,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -37915,7 +37254,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -37939,7 +37277,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -37972,7 +37309,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -37999,7 +37335,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38026,7 +37361,6 @@ lastChange = "2015-11-30 01:26:54 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38060,7 +37394,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38109,7 +37442,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38149,7 +37481,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38173,7 +37504,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38215,7 +37545,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38245,7 +37574,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38277,7 +37605,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38326,7 +37653,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38350,7 +37676,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38392,7 +37717,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38432,7 +37756,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38466,7 +37789,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38490,7 +37812,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38514,7 +37835,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38538,7 +37858,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38562,7 +37881,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38586,7 +37904,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38620,7 +37937,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38654,7 +37970,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38678,7 +37993,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38702,7 +38016,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38726,7 +38039,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38750,7 +38062,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38784,7 +38095,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38811,7 +38121,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38853,7 +38162,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38880,7 +38188,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38929,7 +38236,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38961,7 +38267,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -38985,7 +38290,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -39018,7 +38322,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -39042,7 +38345,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -39082,7 +38384,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -39131,7 +38432,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -39181,7 +38481,6 @@ position = "{24, 590}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -39223,7 +38522,6 @@ position = "{-248, 590}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -39264,7 +38562,6 @@ position = "{24, 590}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -39298,7 +38595,6 @@ position = "{72, 815}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -39331,7 +38627,6 @@ position = "{24, 590}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -39375,7 +38670,6 @@ position = "{72, 815}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -39418,7 +38712,6 @@ position = "{-242, 590}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -39461,7 +38754,6 @@ position = "{24, 590}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -39538,7 +38830,6 @@ position = "{72, 815}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -39614,7 +38905,6 @@ position = "{-242, 590}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -39690,7 +38980,6 @@ position = "{24, 590}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -39732,7 +39021,6 @@ position = "{72, 815}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -39773,7 +39061,6 @@ position = "{24, 590}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -39815,7 +39102,6 @@ position = "{72, 815}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -39856,7 +39142,6 @@ position = "{-242, 590}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -39897,7 +39182,6 @@ position = "{-66, 672}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -39958,7 +39242,6 @@ position = "{-254, 672}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -40018,7 +39301,6 @@ position = "{24, 590}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -40090,7 +39372,6 @@ position = "{17, 560}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -40124,7 +39405,6 @@ position = "{-194, 560}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -40157,7 +39437,6 @@ position = "{32, 630}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -40193,7 +39472,6 @@ position = "{-181, 630}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -40228,7 +39506,6 @@ position = "{35, 640}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -40287,7 +39564,6 @@ position = "{-179, 640}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -40345,7 +39621,6 @@ position = "{32, 630}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -40385,7 +39660,6 @@ position = "{-181, 630}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -40424,7 +39698,6 @@ position = "{29, 640}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -40483,7 +39756,6 @@ position = "{29, 640}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -40549,7 +39821,6 @@ position = "{29, 640}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -40625,7 +39896,6 @@ position = "{29, 640}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -40734,7 +40004,6 @@ position = "{29, 640}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -40808,7 +40077,6 @@ position = "{-143, -198}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -40850,7 +40118,6 @@ position = "{-168, -319}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -40891,7 +40158,6 @@ position = "{-160, -274}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -40933,7 +40199,6 @@ position = "{-182, -378}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -40974,7 +40239,6 @@ position = "{-160, -274}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -41030,7 +40294,6 @@ position = "{-182, -378}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -41085,7 +40348,6 @@ position = "{-242, 590}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -41118,7 +40380,6 @@ position = "{-257, 590}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -41159,7 +40420,6 @@ position = "{-227, 640}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -41217,7 +40477,6 @@ position = "{-227, 640}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -41283,7 +40542,6 @@ position = "{-227, 640}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -41359,7 +40617,6 @@ position = "{-227, 640}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -41468,7 +40725,6 @@ position = "{-227, 640}";
 }
 );
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -41532,7 +40788,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -41567,7 +40822,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -41602,7 +40856,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -41655,7 +40908,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -41706,7 +40958,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -41748,7 +40999,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -41790,7 +41040,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -41850,7 +41099,6 @@ lastChange = "2015-11-30 01:26:57 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -41908,7 +41156,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -41965,7 +41212,6 @@ lastChange = "2015-11-30 01:26:56 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -42022,7 +41268,6 @@ lastChange = "2015-11-30 01:26:55 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
-name = "SemiBold Italic";
 paths = (
 {
 closed = 1;
@@ -42077,10 +41322,12 @@ width = 0;
 note = dieresiscaron;
 }
 );
-disablesAutomaticAlignment = 1;
 instances = (
 {
 interpolationWeight = 600;
+instanceInterpolations = {
+"C917F9CB-DEFA-4BDD-B24E-8B4296F56613" = 1;
+};
 isItalic = 1;
 linkStyle = Semibold;
 name = "SemiBold Italic";
@@ -43263,5 +42510,5 @@ manufacturer = CadsonDemak;
 manufacturerURL = www.cadsondemak.com;
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 1;
 }
