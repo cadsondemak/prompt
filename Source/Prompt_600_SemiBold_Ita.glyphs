@@ -1,7 +1,16 @@
 {
-.appVersion = "1352";
+.appVersion = "3151";
 copyright = "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)";
 customParameters = (
+{
+name = fsType;
+value = (
+);
+},
+{
+name = blueScale;
+value = 0.06196;
+},
 {
 name = vendorID;
 value = CDK;
@@ -19,8 +28,16 @@ name = licenseURL;
 value = "http://scripts.sil.org/OFL";
 },
 {
-name = fsType;
+name = Axes;
 value = (
+{
+Name = Weight;
+Tag = wght;
+},
+{
+Name = Width;
+Tag = wdth;
+}
 );
 }
 );
@@ -82,8 +99,6 @@ fontMaster = (
 alignmentZones = (
 "{750, 16}",
 "{714, 10}",
-"{536, 16}",
-"{536, 0}",
 "{0, -15}",
 "{-209, -6}",
 "{-250, -16}"
@@ -110,6 +125,14 @@ value = 1090;
 {
 name = winDescent;
 value = -422;
+},
+{
+name = strikeoutPosition;
+value = 321;
+},
+{
+name = strikeoutSize;
+value = 50;
 }
 );
 descender = -250;
@@ -6177,7 +6200,7 @@ unicode = 1ED4;
 },
 {
 glyphname = Ocircumflextilde;
-lastChange = "2015-11-30 01:26:55 +0000";
+lastChange = "2024-02-18 10:31:30 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
@@ -6219,25 +6242,6 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"613 742 OFFCURVE",
-"688 799 OFFCURVE",
-"707 890 CURVE",
-"605 890 LINE",
-"596 850 OFFCURVE",
-"570 831 OFFCURVE",
-"531 831 CURVE SMOOTH",
-"491 831 OFFCURVE",
-"474 850 OFFCURVE",
-"483 890 CURVE",
-"379 890 LINE",
-"360 799 OFFCURVE",
-"411 742 OFFCURVE",
-"512 742 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
 "665 923 OFFCURVE",
 "693 933 OFFCURVE",
 "716 957 CURVE",
@@ -6258,6 +6262,18 @@ nodes = (
 "530 966 OFFCURVE",
 "574 923 OFFCURVE",
 "630 923 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"455 742 LINE",
+"536 818 LINE",
+"585 742 LINE",
+"722 742 LINE",
+"611 897 LINE",
+"496 897 LINE",
+"317 742 LINE"
 );
 }
 );
@@ -18946,7 +18962,7 @@ unicode = 1ED3;
 },
 {
 glyphname = ocircumflexhookabove;
-lastChange = "2015-11-30 01:26:56 +0000";
+lastChange = "2024-02-18 10:31:33 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
@@ -19035,7 +19051,7 @@ unicode = 1ED5;
 },
 {
 glyphname = ocircumflextilde;
-lastChange = "2015-11-30 01:26:55 +0000";
+lastChange = "2024-02-18 10:31:37 +0000";
 layers = (
 {
 layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
@@ -19077,25 +19093,6 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"485 535 OFFCURVE",
-"560 592 OFFCURVE",
-"579 683 CURVE",
-"477 683 LINE",
-"468 643 OFFCURVE",
-"442 624 OFFCURVE",
-"403 624 CURVE SMOOTH",
-"363 624 OFFCURVE",
-"346 643 OFFCURVE",
-"355 683 CURVE",
-"251 683 LINE",
-"232 592 OFFCURVE",
-"283 535 OFFCURVE",
-"384 535 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
 "537 716 OFFCURVE",
 "565 726 OFFCURVE",
 "588 750 CURVE",
@@ -19116,6 +19113,18 @@ nodes = (
 "402 759 OFFCURVE",
 "446 716 OFFCURVE",
 "502 716 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"326 535 LINE",
+"407 611 LINE",
+"456 535 LINE",
+"593 535 LINE",
+"482 690 LINE",
+"367 690 LINE",
+"188 535 LINE"
 );
 }
 );
@@ -33355,7 +33364,7 @@ nodes = (
 width = 500;
 }
 );
-note = .notdef;
+note = ".notdef";
 },
 {
 glyphname = .null;
@@ -33366,7 +33375,7 @@ layerId = "C917F9CB-DEFA-4BDD-B24E-8B4296F56613";
 width = 500;
 }
 );
-note = .null;
+note = ".null";
 },
 {
 glyphname = baht;

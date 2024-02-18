@@ -1,7 +1,16 @@
 {
-.appVersion = "1352";
+.appVersion = "3151";
 copyright = "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)";
 customParameters = (
+{
+name = fsType;
+value = (
+);
+},
+{
+name = blueScale;
+value = 0.06196;
+},
 {
 name = vendorID;
 value = CDK;
@@ -19,8 +28,16 @@ name = licenseURL;
 value = "http://scripts.sil.org/OFL";
 },
 {
-name = fsType;
+name = Axes;
 value = (
+{
+Name = Weight;
+Tag = wght;
+},
+{
+Name = Width;
+Tag = wdth;
+}
 );
 }
 );
@@ -82,8 +99,6 @@ fontMaster = (
 alignmentZones = (
 "{750, 16}",
 "{714, 10}",
-"{536, 16}",
-"{536, 0}",
 "{0, -15}",
 "{-209, -6}",
 "{-250, -16}"
@@ -110,6 +125,14 @@ value = 1090;
 {
 name = winDescent;
 value = -422;
+},
+{
+name = strikeoutPosition;
+value = 321;
+},
+{
+name = strikeoutSize;
+value = 50;
 }
 );
 descender = -250;
@@ -6204,7 +6227,7 @@ unicode = 1ED4;
 },
 {
 glyphname = Ocircumflextilde;
-lastChange = "2015-11-30 01:13:22 +0000";
+lastChange = "2024-02-18 10:11:10 +0000";
 layers = (
 {
 layerId = "6C2100B3-2BA9-4AA0-8DCB-13254C7332A5";
@@ -6246,25 +6269,6 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"506 742 OFFCURVE",
-"569 799 OFFCURVE",
-"569 890 CURVE",
-"466 890 LINE",
-"466 850 OFFCURVE",
-"444 831 OFFCURVE",
-"405 831 CURVE SMOOTH",
-"365 831 OFFCURVE",
-"344 850 OFFCURVE",
-"344 890 CURVE",
-"240 890 LINE",
-"240 799 OFFCURVE",
-"304 742 OFFCURVE",
-"405 742 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
 "519 923 OFFCURVE",
 "546 933 OFFCURVE",
 "564 957 CURVE",
@@ -6285,6 +6289,18 @@ nodes = (
 "375 966 OFFCURVE",
 "428 923 OFFCURVE",
 "484 923 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"347 742 LINE",
+"412 818 LINE",
+"477 742 LINE",
+"615 742 LINE",
+"470 897 LINE",
+"355 897 LINE",
+"209 742 LINE"
 );
 }
 );
@@ -19381,7 +19397,7 @@ unicode = 1ED5;
 },
 {
 glyphname = ocircumflextilde;
-lastChange = "2015-11-30 01:13:21 +0000";
+lastChange = "2024-02-18 10:11:15 +0000";
 layers = (
 {
 layerId = "6C2100B3-2BA9-4AA0-8DCB-13254C7332A5";
@@ -19423,25 +19439,6 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"422 535 OFFCURVE",
-"485 592 OFFCURVE",
-"485 683 CURVE",
-"382 683 LINE",
-"382 643 OFFCURVE",
-"360 624 OFFCURVE",
-"321 624 CURVE SMOOTH",
-"281 624 OFFCURVE",
-"260 643 OFFCURVE",
-"260 683 CURVE",
-"156 683 LINE",
-"156 592 OFFCURVE",
-"220 535 OFFCURVE",
-"321 535 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
 "435 716 OFFCURVE",
 "462 726 OFFCURVE",
 "480 750 CURVE",
@@ -19462,6 +19459,18 @@ nodes = (
 "291 759 OFFCURVE",
 "344 716 OFFCURVE",
 "400 716 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"262 535 LINE",
+"327 611 LINE",
+"392 535 LINE",
+"530 535 LINE",
+"385 690 LINE",
+"270 690 LINE",
+"124 535 LINE"
 );
 }
 );
@@ -33594,7 +33603,7 @@ nodes = (
 width = 500;
 }
 );
-note = .notdef;
+note = ".notdef";
 },
 {
 glyphname = .null;
@@ -33605,7 +33614,7 @@ layerId = "6C2100B3-2BA9-4AA0-8DCB-13254C7332A5";
 width = 500;
 }
 );
-note = .null;
+note = ".null";
 },
 {
 glyphname = baht;
@@ -42667,6 +42676,9 @@ comma = -65;
 manufacturer = CadsonDemak;
 manufacturerURL = www.cadsondemak.com;
 unitsPerEm = 1000;
+userData = {
+GSDontShowVersionAlert = 1;
+};
 versionMajor = 1;
 versionMinor = 1;
 }

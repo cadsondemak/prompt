@@ -1,6 +1,16 @@
 {
+.appVersion = "3151";
 copyright = "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)";
 customParameters = (
+{
+name = fsType;
+value = (
+);
+},
+{
+name = blueScale;
+value = 0.06196;
+},
 {
 name = vendorID;
 value = CDK;
@@ -18,15 +28,24 @@ name = licenseURL;
 value = "http://scripts.sil.org/OFL";
 },
 {
-name = fsType;
+name = Axes;
 value = (
+{
+Name = Weight;
+Tag = wght;
+},
+{
+Name = Width;
+Tag = wdth;
+}
 );
 }
 );
 date = "2015-10-28 10:18:31 +0000";
 designer = "Katatrad Team";
 designerURL = www.katatrad.com;
-familyName = "Prompt";
+disablesAutomaticAlignment = 1;
+familyName = Prompt;
 featurePrefixes = (
 {
 automatic = 1;
@@ -41,7 +60,7 @@ code = "feature ccmp;\012feature locl;\012feature subs;\012feature sups;\012feat
 name = aalt;
 },
 {
-code = "lookup latn_decomb {\012\011script latn;\012@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb];\012\011sub [i j]' @CombiningTopAccents by [idotless jdotless];\012\011sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012} latn_decomb;\012\012lookup thai_decomb {\012\011script thai;\012\011sub saraAm-thai by nikhahit-thai saraAa-thai;\012} thai_decomb;\012\012lookup thai_comb {\012    script thai;\012sub maiEk-thai nikhahit-thai by nikhahit_maiEk-thai;\012sub maiTho-thai nikhahit-thai by nikhahit_maiTho-thai;\012sub maiTri-thai nikhahit-thai by nikhahit_maiTri-thai;\012sub maiChattawa-thai nikhahit-thai by nikhahit_maiChattawa-thai;\012\012\012} thai_comb;\012\012lookup thai_comb1 {\012\011script thai;\012sub [yoYing-thai thoThan-thai doChada-thai toPatak-thai ru-thai lu-thai]' [saraU-thai saraUu-thai phinthu-thai] by [yoYing-thai.less thoThan-thai.less doChada-thai.short toPatak-thai.short ru-thai.short lu-thai.short];\012sub [doChada-thai.short toPatak-thai.short ru-thai.short lu-thai.short] [phinthu-thai saraU-thai saraUu-thai]' by [phinthu-thai.small saraU-thai.small saraUu-thai.small];\012sub [nikhahit-thai nikhahit-thai.narrow maiHanaKat-thai maitaikhu-thai maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai yamakkan-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small];\012sub loChula-thai' [nikhahit-thai maiChattawa-thai maiEk-thai maiHanaKat-thai thanthakhat-thai maiTho-thai maiTri-thai maitaikhu-thai yamakkan-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai] by loChula-thai.short;\012sub [poPla-thai foFa-thai foFan-thai] [maiHanaKat-thai thanthakhat-thai nikhahit-thai maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai maitaikhu-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai]' by [maiHanaKat-thai.narrow thanthakhat-thai.narrow nikhahit-thai.narrow maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow];\012sub [poPla-thai foFa-thai foFan-thai] [nikhahit_maiEk-thai nikhahit_maiTho-thai nikhahit_maiTri-thai nikhahit_maiChattawa-thai]' by [nikhahit_maiEk-thai.narrow nikhahit_maiTho-thai.narrow nikhahit_maiTri-thai.narrow nikhahit_maiChattawa-thai.narrow];\012sub [maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow thanthakhat-thai.narrow] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small];\012sub [poPla-thai foFa-thai foFan-thai] [saraU-thai saraUu-thai phinthu-thai] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow thanthakhat-thai.narrow];\012sub [maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow] [maiHanaKat-thai maitaikhu-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai]' by [maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow];\012\012} thai_comb1;";
+code = "lookup latn_decomb {\012	script latn;\012@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012} latn_decomb;\012\012lookup thai_decomb {\012	script thai;\012	sub saraAm-thai by nikhahit-thai saraAa-thai;\012} thai_decomb;\012\012lookup thai_comb {\012    script thai;\012sub maiEk-thai nikhahit-thai by nikhahit_maiEk-thai;\012sub maiTho-thai nikhahit-thai by nikhahit_maiTho-thai;\012sub maiTri-thai nikhahit-thai by nikhahit_maiTri-thai;\012sub maiChattawa-thai nikhahit-thai by nikhahit_maiChattawa-thai;\012\012\012} thai_comb;\012\012lookup thai_comb1 {\012	script thai;\012sub [yoYing-thai thoThan-thai doChada-thai toPatak-thai ru-thai lu-thai]' [saraU-thai saraUu-thai phinthu-thai] by [yoYing-thai.less thoThan-thai.less doChada-thai.short toPatak-thai.short ru-thai.short lu-thai.short];\012sub [doChada-thai.short toPatak-thai.short ru-thai.short lu-thai.short] [phinthu-thai saraU-thai saraUu-thai]' by [phinthu-thai.small saraU-thai.small saraUu-thai.small];\012sub [nikhahit-thai nikhahit-thai.narrow maiHanaKat-thai maitaikhu-thai maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai yamakkan-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small];\012sub loChula-thai' [nikhahit-thai maiChattawa-thai maiEk-thai maiHanaKat-thai thanthakhat-thai maiTho-thai maiTri-thai maitaikhu-thai yamakkan-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai] by loChula-thai.short;\012sub [poPla-thai foFa-thai foFan-thai] [maiHanaKat-thai thanthakhat-thai nikhahit-thai maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai maitaikhu-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai]' by [maiHanaKat-thai.narrow thanthakhat-thai.narrow nikhahit-thai.narrow maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow];\012sub [poPla-thai foFa-thai foFan-thai] [nikhahit_maiEk-thai nikhahit_maiTho-thai nikhahit_maiTri-thai nikhahit_maiChattawa-thai]' by [nikhahit_maiEk-thai.narrow nikhahit_maiTho-thai.narrow nikhahit_maiTri-thai.narrow nikhahit_maiChattawa-thai.narrow];\012sub [maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow thanthakhat-thai.narrow] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small];\012sub [poPla-thai foFa-thai foFan-thai] [saraU-thai saraUu-thai phinthu-thai] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow thanthakhat-thai.narrow];\012sub [maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow] [maiHanaKat-thai maitaikhu-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai]' by [maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow];\012\012} thai_comb1;";
 name = ccmp;
 },
 {
@@ -80,8 +99,6 @@ fontMaster = (
 alignmentZones = (
 "{750, 16}",
 "{714, 10}",
-"{536, 16}",
-"{536, 0}",
 "{0, -15}",
 "{-209, -6}",
 "{-250, -16}"
@@ -103,11 +120,19 @@ value = 200;
 },
 {
 name = winAscent;
-value = "1090";
+value = 1090;
 },
 {
 name = winDescent;
-value = "-422";
+value = -422;
+},
+{
+name = strikeoutPosition;
+value = 321;
+},
+{
+name = strikeoutSize;
+value = 50;
 }
 );
 descender = -250;
@@ -6323,7 +6348,7 @@ unicode = 1ED4;
 },
 {
 glyphname = Ocircumflextilde;
-lastChange = "2015-11-30 00:46:21 +0000";
+lastChange = "2024-02-18 10:13:34 +0000";
 layers = (
 {
 layerId = "8C3E11F2-14C8-42F3-9A0B-AF341C1B554F";
@@ -6366,25 +6391,6 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"508 742 OFFCURVE",
-"566 801 OFFCURVE",
-"566 889 CURVE",
-"474 889 LINE",
-"474 846 OFFCURVE",
-"451 824 OFFCURVE",
-"410 824 CURVE SMOOTH",
-"369 824 OFFCURVE",
-"346 846 OFFCURVE",
-"346 889 CURVE",
-"254 889 LINE",
-"254 801 OFFCURVE",
-"312 742 OFFCURVE",
-"410 742 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
 "523 925 OFFCURVE",
 "549 935 OFFCURVE",
 "566 959 CURVE",
@@ -6405,6 +6411,18 @@ nodes = (
 "381 968 OFFCURVE",
 "434 925 OFFCURVE",
 "488 925 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"352 742 LINE",
+"424 826 LINE",
+"496 742 LINE",
+"615 742 LINE",
+"477 894 LINE",
+"371 894 LINE",
+"232 742 LINE"
 );
 }
 );
@@ -19711,7 +19729,7 @@ unicode = 1ED5;
 },
 {
 glyphname = ocircumflextilde;
-lastChange = "2015-11-30 00:46:19 +0000";
+lastChange = "2024-02-18 10:13:38 +0000";
 layers = (
 {
 layerId = "8C3E11F2-14C8-42F3-9A0B-AF341C1B554F";
@@ -19754,25 +19772,6 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"419 535 OFFCURVE",
-"477 594 OFFCURVE",
-"477 682 CURVE",
-"385 682 LINE",
-"385 639 OFFCURVE",
-"362 617 OFFCURVE",
-"321 617 CURVE SMOOTH",
-"280 617 OFFCURVE",
-"257 639 OFFCURVE",
-"257 682 CURVE",
-"165 682 LINE",
-"165 594 OFFCURVE",
-"223 535 OFFCURVE",
-"321 535 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
 "434 718 OFFCURVE",
 "460 728 OFFCURVE",
 "477 752 CURVE",
@@ -19793,6 +19792,18 @@ nodes = (
 "292 761 OFFCURVE",
 "345 718 OFFCURVE",
 "399 718 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"250 535 LINE",
+"322 619 LINE",
+"394 535 LINE",
+"513 535 LINE",
+"375 687 LINE",
+"269 687 LINE",
+"130 535 LINE"
 );
 }
 );
@@ -34214,7 +34225,7 @@ nodes = (
 width = 504;
 }
 );
-note = .notdef;
+note = ".notdef";
 },
 {
 glyphname = .null;
@@ -34226,7 +34237,7 @@ name = Regular;
 width = 500;
 }
 );
-note = .null;
+note = ".null";
 },
 {
 glyphname = baht;
@@ -42366,10 +42377,12 @@ width = 0;
 note = dieresiscaron;
 }
 );
-disablesAutomaticAlignment = 1;
 instances = (
 {
 interpolationWeight = 500;
+instanceInterpolations = {
+"8C3E11F2-14C8-42F3-9A0B-AF341C1B554F" = 1;
+};
 name = Medium;
 weightClass = Medium;
 }
